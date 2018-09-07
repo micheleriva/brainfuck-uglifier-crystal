@@ -32,7 +32,7 @@ Given the following brainfuck program:
 [->+++<]>++.    # Point
 ```
 
-Parse it in Ruby like this:
+Parse it in Crystal like this:
 
 ```crystal
 program = Uglifier.new "./test/test.bf"
